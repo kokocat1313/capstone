@@ -1,0 +1,352 @@
+:root{
+    --grey-color:rgb(241, 240, 240);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Open Sans;
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: 1200px;
+    
+} 
+ /* header Section */
+
+.header{
+    height: 64px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    margin:0;
+    width:100vw;
+    max-width:1200px;
+    z-index:2
+    
+    }
+    
+.logo{
+    margin-left: 24px;
+        
+}
+
+span:nth-child(2) {
+    
+    font-weight: 500;
+    color: rgba(74, 74, 74, 1);
+}
+
+span{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(155, 155, 155, 1);
+}
+    
+.navigation{
+   margin:0 auto;
+   justify-content: end;
+   margin-right: 16px;
+}
+
+.navigation li {
+    height: 100%;
+    display: inline-block;
+}
+
+.navigation a{
+text-decoration: none;
+list-style: none;
+padding:8px;
+color:rgb(95, 93, 93);
+}
+
+.navigation a:hover{
+    color: rgb(43, 95, 67);
+    font-size: 30px;
+    transition-duration: 500ms;
+}
+
+
+/* Banner Section */
+.banner-container{
+    display: flex;
+    background-color:var(--grey-color);
+    width: 100%;
+    margin-right: 0;
+}
+.banner1{
+    align-items: center;
+    width: 60%;
+    padding: 96px 24px 32px 24px;
+ 
+    justify-content: left;
+    }
+
+.banner1 img{ 
+width:100%;
+}
+
+.banner2{
+    
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.banner2 h1{
+    font-size: 30px;
+   
+    
+}
+.banner2 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin:0;
+
+}
+
+.banner-cta{
+    width: 40%;
+    border: 2px solid grey;
+    background: grey;
+    text-decoration: none;
+    padding: 8px 0;
+    color: white;
+    text-align: center;
+    margin-top: 24px;
+    
+}
+.banner-cta:hover{
+    background: rgb(54, 45, 49);
+    transition: all 1s ease-out;
+    cursor: pointer;
+}
+
+.school-info{
+  width: 100%;
+  max-width: 1200px;  
+  background: white;
+  display: flex;
+}
+
+.main-info{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.main-info h1{
+    font-size: 35px;
+}
+
+.quote{
+    font-size: large;
+}
+
+.main-info img{
+    width:100%;
+    
+}
+
+.info-text{
+    margin: 32px auto;
+}
+
+.section{
+    width: 38%;
+    display: block;
+    margin-top: 16px;
+}
+
+.item:nth-child(1){
+    border-bottom: 4px solid rgb(241, 240, 240);
+}
+
+.item{
+    display: flex;
+    padding: 16px 16px 16px 0;
+    width:100%;
+    
+}
+
+.item:nth-child(3){
+    background-color: var(--grey-color);
+    width:97%;
+    
+}
+
+.item img{
+ max-width: 35%;
+ min-width: 35%;
+ height: auto;
+ padding-right:20px;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.guest-infor-img {
+    padding-left: 16px;
+}
+
+.orientaion-img{
+    padding-left: 16px;
+   
+}
+
+.campus-infor-img{
+    padding: 0 16px;
+}
+
+/* Course information */
+
+.course-info-container{
+    width: 100%;
+    max-width:1200px;
+    display: block;
+    background-color: var(--grey-color)
+}
+
+.course-info-container .title{
+    font-size: 30px;
+    text-align: center;
+    padding: 32px;
+    
+}
+
+.course-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 68px;
+    margin-right:68px;
+    align-items: center;
+}
+
+.course-img .course-container{
+    background-color: white;
+    margin: 8px;
+    height: 300px;
+    width: 28%;
+    flex-wrap: wrap;
+}
+
+
+.course-container .img{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    object-fit: contain;
+ 
+}
+    
+.course-img p{
+font-size: 10px;
+}
+
+#computer-art{
+    margin-bottom: -26px;
+}
+
+.course-title{
+    margin: 0 0 0 16px;
+    padding: 0;
+    display: block;
+    line-height: 16px;
+}
+
+.course-title h5{
+    transform: translateY(-8px);
+}
+
+.course-title p{
+    transform: translateY(-16px);
+}
+
+/* Thesis Exhibit */
+
+.thesis-exhibit{
+    widows: 100%;
+    max-width: 1200px;
+
+    
+}
+
+.thesis-exhibit h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+
+.exhibit-container{
+    display: flex;
+    widows: 100%;
+    max-width: 1200px;
+    margin-left: 24px;
+    
+    
+}
+.video-section{
+    width: 60%;
+    margin-right: 24px;
+}
+
+.video-section video{
+    width: 100%;
+}
+
+
+.video-title{
+    width: 55%;
+    
+}
+
+.img-section{
+    width: 40%;
+    
+}
+
+.img-section1{
+    background-color: var(--grey-color);
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.img-section1 img{
+    width:35%;
+    height: auto;
+    margin: 16px 16px; 
+    justify-content: center;
+}
+
+
+.img-section2{
+    
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.img-section2 img{
+    width:35%;
+    height: auto;
+    margin: 16px 16px; 
+    justify-content: center;
+}
+
+footer{
+    margin-left: 24px;
+    border-top: 2px solid rgb(173, 169, 169);
+}

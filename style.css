@@ -346,7 +346,204 @@ font-size: 10px;
     justify-content: center;
 }
 
-footer{
+.footer{
     margin-left: 24px;
     border-top: 2px solid rgb(173, 169, 169);
+}
+
+
+#mobile{
+        display: none;
+    }
+
+@media only screen and (max-width: 375px)
+{
+
+    
+    #laptop{
+        display:none;}
+
+    #mobile{
+        display: inline-table;
+        top:0px;
+        max-width: 375px;
+    }
+
+    /* mobile header  */
+      #mobile .header{
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
+
+    .banner-container{
+        width: 100%;
+        flex-direction: column;  
+    }
+
+    .banner-container .banner1{
+        width: 100%;
+        height: auto;
+        margin-left:0;
+        padding: 0;
+    }
+
+   .banner2{
+    
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            }
+
+    .course-info-container .banner2 h1{
+        font-size: 15px;
+       
+    
+        }
+
+
+    .school-info .course-info-container{
+        display: block; 
+        width: 100px;
+    }
+   
+    .banner-cta {
+        width: 80%;
+        border: 0px solid grey;
+        background: grey;
+        text-decoration: none;
+        padding: 20px 0;
+        color: white;
+        text-align: center;
+        margin: 24px 16px 32px;
+    }
+
+    .section{
+    width: 100%;
+}
+    .main-info {
+        display: none;}
+
+    .item{
+        width: 100%;
+        flex-direction: column;
+        padding:0;
+        background-color: white;
+        }
+
+    .section .item img{
+        max-width:100%;
+        padding: 0 16px;
+      
+}
+    .section .item h3, h5, a{
+        line-height: 0;
+        padding: 0 0 0 16px;}
+
+    .section .item a{
+        font-size: small;
+    }
+
+    .item-info{
+        margin-bottom: 64px;}
+
+     .section .item h3, h5, a {
+        line-height: 1rem;}
+
+    .item:nth-child(3){
+        background-color: white;}
+
+    .guest-infor-img{
+            width: 95%;
+        }
+        
+/* Course infor */
+
+    .course-info-container img, h5, p{
+        display: none;
+    
+}
+
+.course-info-container .title{
+    font-size: 30px;
+    text-align: center;
+    padding:0;
+    background-color: white;
+}
+
+.course-img{
+    flex-direction: column;
+    width:100%;
+    margin:0;
+    background-color: white;
+    
+}
+.course-info-container h3{
+    
+    width:100%;
+    padding: 16px 16px 24px 16px;
+    margin:0;
+}
+
+.course-img .course-container {
+    margin: 4px;
+    width: 80%;
+    height: auto; 
+    background-color: var(--grey-color);
+
+}
+
+#computer-art{
+    margin-bottom: 0;}
+
+    /* thesis-exhibit */
+
+    .video-title, .img-section{
+        display:none;
+    }
+
+    .exhibit-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .video-section{
+       
+        width: 100%;
+        margin: 0;
+    }
+
+    .thesis-exhibit h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+
+    .video-section video{
+        width: 100%;
+        padding-bottom:24px;
+        height: 10rem;
+    }
+
+    .footer{
+        display: block;
+        width:100%;
+        height:10%;
+        clear: both;
+        text-align: center;
+        z-index: 1000;
+        margin:0;
+        position: absolute;
+        border-top:1px;
+    
+    }
+   
+    
+    
+
 }
